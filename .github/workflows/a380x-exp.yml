@@ -62,7 +62,6 @@ jobs:
   build_a380x:
     name: Build and deploy A380X
     # Prevent running this on forks
-    if: github.repository_owner == 'flybywiresim'
     runs-on: ubuntu-latest
     env:
       FBW_PRODUCTION_BUILD: 1
