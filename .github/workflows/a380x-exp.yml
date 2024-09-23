@@ -2,10 +2,7 @@
 # Builds the A32NX and the A380X and uploads them to the CloudFlare CDN
 
 name: a380x-experimental
-on:
-  push:
-    branches:
-      - a380x-experimental
+on: workflow_dispatch
 
 jobs:
   build_a32nx:
